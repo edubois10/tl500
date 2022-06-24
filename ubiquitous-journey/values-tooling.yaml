@@ -15,18 +15,18 @@ applications:
         - name: jenkins
           kind: ServiceAccount
           role: admin
-          namespace: edubois10-ci-cd
+          namespace: tl500-edubois-ci-cd
       namespaces:
-        - name: edubois10-ci-cd
+        - name: tl500-edubois-ci-cd
           bindings: *binds
           operatorgroup: true
-        - name: edubois10-dev
+        - name: tl500-edubois-dev
           bindings: *binds
           operatorgroup: true
-        - name: edubois10-test
+        - name: tl500-edubois-test
           bindings: *binds
           operatorgroup: true
-        - name: edubois10-stage
+        - name: tl500-edubois-stage
           bindings: *binds
           operatorgroup: true
 
