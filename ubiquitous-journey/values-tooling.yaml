@@ -61,6 +61,8 @@ applications:
             value: ''
           - name: GITLAB_GROUP_NAME
             value: ''
+          - name: BISCUITS
+            value: 'jaffa-cakes'
       persistence: false
       source_secrets:
         - name: nexus-password
