@@ -1,7 +1,7 @@
 # change source and team
 # source: https://github.com/rht-labs/tech-exercise.git
 source: https://github.com/edubois10/tl500.git
-team: edubois10
+team: tl500-edubois
 release: ci-cd
 
 applications:
